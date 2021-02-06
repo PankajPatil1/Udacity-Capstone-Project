@@ -49,7 +49,13 @@ User will need to run the dog_app.ipnyb Jupyter notebook which will save model_t
 >`cd Scripts` <br>
 >`activate`<br>
 
-This will activate the virtual environment. Next execute the following :
+This will activate the virtual environment. In case this did not work, you'll need to setup a virtual environment on your own by executing code mentioned below :
+>`python3 -m venv <myenvname>` <br>
+>`cd Scripts`<br>
+>`activate`<br>
+>`pip install -r requirements.txt`<br>
+
+Next execute the following :
 
 >`cd ..`<br>
 >`python3 app.py` <br>
