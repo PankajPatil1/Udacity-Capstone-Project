@@ -42,4 +42,16 @@ __NOTE:__ In the notebook, you will need to train CNNs in PyTorch.  If your CNN 
 
 
 
-## Please check requirements.txt for package requirements for this project
+## Please check requirements.txt for package requirements for this deployment aspect
+
+User will need to run the dog_app.ipnyb Jupyter notebook which will save model_trasnfer.pt and VGG16 model in the parent directory. Then user should setup a virtual environment in the parent directory by navigating to the parent directory in cmd then executing the below
+
+>`cd Scripts`
+>`activate`
+
+This will activate the virtual environment. Next execute the following :
+
+>`cd ..`
+>`python3 app.py`
+
+This will execute the app and host it on local server. The app can be accessed at http://localhost:5000/
